@@ -3,7 +3,7 @@ const routeResponseMap = {
   "/contact": "<h1>Contact Us</h1>",
   "/about": "<h1>Learn More About Us.</h1>",
   "/hello": "<h1>Say hello by emailing us <a href=\"https://mail.google.com/mail\">here</a></h1>",
-  "/error": "<h1>Sorry the page you are looking for is not here.</h1>",
+  "/error": "<h1>404 Not Found</h1><p>The page you are looking for does not exist.</p>",
 };
 
 const port = 3000;
