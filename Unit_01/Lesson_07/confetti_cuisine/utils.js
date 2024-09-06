@@ -1,8 +1,8 @@
 "use strict";
 
-const fs = require("fs"),
-    httpStatus = require("http-status-codes"),
-    contentTypes = require("./contentTypes");
+const fs = require("fs");
+const httpStatus = require("http-status-codes");
+const contentTypes = require("./contentTypes");
 
 module.exports = {
     getFile: (file, res) => {
