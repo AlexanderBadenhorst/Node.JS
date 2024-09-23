@@ -5,7 +5,7 @@ const errorController = require("./controllers/errorController");
 const layouts = require("express-ejs-layouts");
 const mongoDB = require("mongodb").MongoClient;
 
-const dburl = "mongodb://localhost:27017";
+const dburl = "mongodb://0.0.0.0:27017";
 const dbName = "recipe_db";
 //database connection
 mongoDB.connect(dburl, (error, client) => {
