@@ -59,8 +59,8 @@ db.once("open", ()=> {
 //USING PROMISES
 //Option2
 Subscriber.create({
-  name: "Victor Poto",
-  email: "victorseptember@gmail.com"
+  name: "Michael",
+  email: "Michael@gmail.com"
 })
   .then(savedDocument => {
     console.log(savedDocument);
@@ -71,7 +71,7 @@ Subscriber.create({
 
 
 //RUNNING A QUERY
-const query = Subscriber.find({ name: "Victor Poto" }).exec();
+const query = Subscriber.find({ name: "Michael" }).exec();
 query
   .then(docs => {
     console.log(docs); // Handle the results

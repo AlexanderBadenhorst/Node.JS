@@ -15,8 +15,8 @@ mongoDB.connect(dburl, (error, client) => {
   //insert a document into our collection
   db.collection("contacts")
   .insert({
-    name: "Test",
-    email: "2024-september-09@gmail.com"
+    name: "Michael",
+    email: "Maatjie@gmail.com"
   }, (error, db) => {
     if (error) throw error;
     console.log(db);
